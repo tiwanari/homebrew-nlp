@@ -7,9 +7,9 @@ this code is based on
 =end
 
 class Jdepp < Formula
-  homepage "http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/"
-  url "http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/jdepp-2015-10-05.tar.gz"
-  sha256 "89233c3a2284aea38832bd3050d6ab989abc93952b8394afc65c3d89e9592278"
+  homepage 'http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/'
+  url 'http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/jdepp-2015-10-05.tar.gz'
+  sha256 '89233c3a2284aea38832bd3050d6ab989abc93952b8394afc65c3d89e9592278'
 
   depends_on 'mecab'
 
