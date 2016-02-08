@@ -10,6 +10,9 @@ class MecabIpadicNeologd < Formula
   version '0.0.4'
 
   depends_on 'mecab'
+  depends_on 'mecab-ipadic'
+  depends_on 'libiconv'
+  depends_on 'xz'
 
   def install
     args = %W[
